@@ -86,3 +86,11 @@ docker run -it \
   --table_name=yellow_taxi_trips \
   --url=${URL}
 ```
+
+# Persist pgadmin
+
+Allocate a volume then run:
+
+```bash
+sudo chown -R 5050:5050 path/to/local/volume
+```
